@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Set container with:
+- fixed height
+- Overflow hidden
+- Relative position
+*/
+.img-container {height:150px; overflow:hidden; position:relative; width:960px}
+
+/*Set link above (could be title or anything):
+- Absolute position
+*/
+span a {position:absolute; bottom:0; right:100px; padding:5px; background:#FFF; margin-bottom:5px}
+
+/*Image goes within img-container and offset by negative value to get middle of image*/
+img {margin-top:-15%!important}
+
